@@ -1,0 +1,94 @@
+/* Profile Container */
+.profileContainer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Error Message */
+.errorMessage {
+  color: #e74c3c;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Loading Message */
+.loadingMessage {
+  font-size: 1.2rem;
+  color: #95a5a6;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* Profile Info */
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Profile Picture Container */
+.profilePicContainer {
+  margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profilePic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* User Details */
+.userDetails {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+/* User Details Paragraphs */
+.userDetails p {
+  margin: 12px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profileContainer {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .profilePic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .userDetails {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}

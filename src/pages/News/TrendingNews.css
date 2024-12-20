@@ -1,0 +1,54 @@
+.trending-news {
+  padding: 0px;
+  border-radius: 8px;
+  margin-top: 20px;
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+
+.trending-coins {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
+  gap: 20px;
+  
+}
+
+.coin-card {
+  /* background-color: white; */
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.coin-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: blueviolet;
+}
+.coin-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.coin-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.coin-card p {
+  font-size: 14px;
+  color: white;
+}
+
